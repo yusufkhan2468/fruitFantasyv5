@@ -1,7 +1,4 @@
-@extends('admin.layout.master')
-
-@section('content')
-
+<x-master>
 <div class="justify-content-md-center pb-2">
     <form action="#" method="POST" class="form-login align-items-center">
         <div class="col-md-auto pb-2">
@@ -22,5 +19,7 @@
         </div>
     </form>
 </div>
+</x-master>
 
-@endsection
+
+

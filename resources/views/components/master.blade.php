@@ -44,7 +44,7 @@
     </div>
     <div class="container ">
         <!-- main body code here -->
-        @yield('content')
+        {{ $slot }}
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

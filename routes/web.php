@@ -13,3 +13,12 @@ Route::get('/dashboard', function () {
 Route::get('/addCategory', function () {
     return view('admin.addCategory');
 });
+Route::get('/addProduct', function () {
+    return view('admin.addProduct');
+});
+Route::get('/categoryList', function () {
+    return view('admin.categoryList');
+});
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
