@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{asset('assets/admin')}}/css/style.css">
-    <title>Category Products</title>
+    <title>Fruit Fantasy</title>
 </head>
 
 <body>
@@ -26,15 +26,14 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <a type="button" href="login.php" class="btn btn-outline-secondary mx-3"><i class="fa-solid fa-user"></i></a>
-                <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-cart-arrow-down"></i></button </div>
             </div>
     </nav>
     <div class="sidebar bg-secondary text-white">
         <div class="items">
-            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
-            <li><i class="fa-solid fa-border-all"></i><a href="#">Categories</a></li>
-            <li><i class="fa-solid fa-apple-whole"></i><a href="#">Products</a></li>
-            <li><i class="fa-solid fa-users"></i><a href="#">Users</a></li>
+            <li><i class="fa-solid fa-chart-pie"></i><a href="{{url('dashboard')}}">Dashboard</a></li>
+            <li><i class="fa-solid fa-border-all"></i><a href="{{url('categoryList')}}">Categories</a></li>
+            <li><i class="fa-solid fa-apple-whole"></i><a href="{{url('productList')}}">Products</a></li>
+            <li><i class="fa-solid fa-users"></i><a href="{{url('userList')}}">Users</a></li>
             <li><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Order List</a></li>
             <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="#">Invoice</a></li>
             <li><i class="fa-solid fa-star-half-stroke"></i><a href="#">Reviews</a></li>
